@@ -69,7 +69,7 @@ public abstract class EditableTextArea extends JTextArea
         });
     }
     
-    abstract void onTextChange(String text);
+    public abstract void onTextChange(String text);
 
     @Override
     protected void paintComponent(Graphics g)
