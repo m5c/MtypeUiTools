@@ -26,14 +26,11 @@ public abstract class RectButton extends JPanel
     private boolean active;
     private final boolean isCategory;
 
-    public RectButton(String text, boolean active, boolean toggelable, boolean isCategory, MouseListener categoryToggleListener)
+    public RectButton(String text, boolean active, boolean toggelable, boolean isCategory)
     {
         this.text = text;
         this.active = active;
         this.isCategory = isCategory;
-
-        if (toggelable)
-            addMouseListener(categoryToggleListener);
     }
 
     @Override

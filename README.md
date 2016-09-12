@@ -8,7 +8,7 @@ Providing good looking Swing UIComponents that should have been in the box.
 
 ### A little more & motivation ###
 
-* Though using Swing and AWT many retty things can be somehow created, I found myself using some patterns over and over again. This library aims to simplify reuse of these custom components.
+* Though using Swing and AWT many pretty things can be somehow created, I found myself using some patterns over and over again. This library aims to simplify reuse of these custom components.
 
 ## Features ##
 
