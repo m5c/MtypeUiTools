@@ -24,13 +24,11 @@ public abstract class RectButton extends JPanel
 
     private final String text;
     private boolean active;
-    private final boolean isCategory;
 
-    public RectButton(String text, boolean active, boolean toggelable, boolean isCategory)
+    public RectButton(String text, boolean active, boolean toggelable)
     {
         this.text = text;
         this.active = active;
-        this.isCategory = isCategory;
     }
 
     @Override
