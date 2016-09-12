@@ -6,8 +6,6 @@ import java.awt.FontMetrics;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.RenderingHints;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
 import java.awt.geom.Rectangle2D;
 import javax.swing.JPanel;
 
@@ -19,14 +17,16 @@ public abstract class RectButton extends JPanel
 
     String bgColorCode;
     String fgColorCode;
-
     String iaColorCode;
 
     private final String text;
     private boolean active;
 
-    public RectButton(String text, boolean active, boolean toggelable)
+    public RectButton(String text, boolean active, boolean toggelable, String bgColor, String fgColor, String iaColor)
     {
+        this.bgColorCode = bgColor;
+        this.fgColorCode = fgColor;
+        this.iaColorCode = iaColor;
         this.text = text;
         this.active = active;
     }
